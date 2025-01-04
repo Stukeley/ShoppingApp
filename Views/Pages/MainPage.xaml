@@ -1,0 +1,14 @@
+﻿<Page x:Class="ShoppingApp.Views.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:ShoppingApp.Views.Pages"
+      mc:Ignorable="d"
+      Title="MainPage" Height="660" Width="1220">
+    <ScrollViewer HorizontalAlignment="Center" VerticalScrollBarVisibility="Auto">
+        <UniformGrid x:Name="ProductsGrid" Columns="4" Rows="3" Width="1200" Margin="10">
+        
+        </UniformGrid>
+    </ScrollViewer>
+</Page>
